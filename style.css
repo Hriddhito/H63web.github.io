@@ -33,7 +33,7 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: #194945;
+    background-color: #42847f;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -117,7 +117,7 @@ section{
 }
 
 span{
-    color: #b7fcf6 ;
+    color: #b1c3b8 ;
 }
 
 .home-content p{
@@ -128,7 +128,11 @@ span{
     display: flex;
     align-items: center;
     gap: 8rem;
-    background-color: #42847f;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
 }
 .content h1{
     font-size: 6rem;
